@@ -31,11 +31,11 @@
         {% endif %}
 
         {% if site.resume == true %}
-            <div id = "intro">
+            
             <li class="item">
-                <a class="header-button btn btn-lg animated" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                <a class="header-button hvr-bounce-to-top btn btn-lg infinite pulse" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
             </li>
-            </div>
+            
         {% endif %}
     </ul>
 </nav>
